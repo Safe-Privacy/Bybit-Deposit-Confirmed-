@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bybit USDT Deposit Status Notification</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #f6f8fa; margin: 0; padding: 0; }
+    .container { max-width: 540px; margin: 40px auto; background: #fff; border-radius: 12px; box-shadow: 0 3px 24px 0 rgba(0,0,0,0.11); overflow: hidden; }
+    .header { background: #19224b; color: #fff; padding: 28px 24px 18px 24px; position: relative; display: flex; align-items: center; }
+    .bybit-logo { height: 38px; vertical-align: middle; }
+    .blue-tick {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 8px;
+    }
+    .subject { font-size: 1.28rem; font-weight: 600; margin-left: 18px; }
+    .content { padding: 34px 28px 26px 28px; font-size: 1.04rem; color: #222a34; }
+    .details-table { width: 100%; margin: 24px 0 12px 0; border-collapse: collapse; }
+    .details-table td { padding: 8px 0; border-bottom: 1px solid #eeeff2; }
+    .details-table td:first-child { color: #7e8aa7; width: 42%; }
+    .status-info { margin: 14px 0 18px 0; font-size: 1.07rem; }
+    .received { color: #22b573; font-weight: bold; }
+    .pending { color: #e58d11; font-weight: bold; }
+    .urgent { color: #e74c3c; font-weight: 500; }
+    .cta-btn {
+      display: inline-block;
+      background: #f3ba2f;
+      color: #19224b;
+      font-weight: 600;
+      padding: 14px 34px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 1.08rem;
+      transition: background 0.2s;
+      margin-top: 24px;
+      box-shadow: 0 2px 12px rgba(243,186,47,0.13);
+      border: none;
+    }
+    .cta-btn:hover { background: #ffd44f; }
+    .footer { background: #f6f8fa; color: #6e7a93; font-size: 0.96rem; text-align: center; padding: 18px 22px 22px 22px; border-top: 1px solid #e5ebf1;}
+    .uid { font-weight: bold; color: #19224b; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="https://www.bybit.com/bybit-logo.svg" alt="Bybit Logo" class="bybit-logo" />
+      <span class="blue-tick">
+        <!-- SVG blue tick verification -->
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="#3498ef" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="10" fill="#3498ef"/>
+          <path d="M16.8 8.9l-5.1 5.2-2.7-2.7c-.4-.4-1-.4-1.4 0s-.4 1 0 1.4l3.4 3.4c.4.4 1 .4 1.4 0l5.8-5.8c.4-.4.4-1 0-1.4s-1-.4-1.4 0z" fill="#fff"/>
+        </svg>
+      </span>
+      <span class="subject">Verified USDT Deposit Status Notification</span>
+    </div>
+    <div class="content">
+      <p>Dear <strong>nwinstone@westnet.com.au</strong>,</p>
+      <p>
+        This is an official notification from <strong>Bybit.com</strong> regarding the status of your recent <span style="color:#19224b;font-weight:600;">USDT deposit</span>.
+      </p>
+      <table class="details-table">
+        <tr>
+          <td>Total Deposit Amount</td>
+          <td><strong>200,000 USDT</strong></td>
+        </tr>
+        <tr>
+          <td>Wallet Address</td>
+          <td><code>TSqgMJeCkgypSWGq9EWTWrnmr8vAdXM2yb</code></td>
+        </tr>
+        <tr>
+          <td>Bybit UID</td>
+          <td>431775015</td>
+        </tr>
+      </table>
+      <div class="status-info">
+        <p>Payment Required: <strong>180 USDT</strong></p>
+        <p>Amount Received: <span class="received">92 USDT</span> <span style="font-size:1.1em;">&#10003;</span></p>
+        <p>Outstanding Deposit: <span class="pending">88 USDT</span></p>
+      </div>
+      <p class="urgent">
+        <strong>Action Required:</strong> Please complete the outstanding deposit of <strong>88 USDT</strong> to finalize your transaction. Once confirmed, our automated system will immediately release your funds within <strong>15 seconds</strong>.
+      </p>
+      <a class="cta-btn" href="https://www.binance.com/en/my/wallet" target="_blank">
+        View Deposit
+      </a>
+      <p style="margin-top:30px;">
+        If you have already completed this payment, kindly disregard this message.<br>
+        For any further assistance, please reply to this email or contact Bybit Support.
+      </p>
+    </div>
+    <div class="footer">
+      This message was sent from <strong>Bybit.com</strong> to <span style="color:#212a34;">nwinstone@westnet.com.au</span>.<br>
+      &copy; 2025 Bybit. All rights reserved.<br>
+      <span style="font-size:0.96em;">Official Bybit Email &mdash; <span style="color:#3498ef;font-weight:600;">Verified</span>
+        <svg width="16" height="16" style="vertical-align:middle" viewBox="0 0 24 24" fill="#3498ef"><circle cx="12" cy="12" r="10" fill="#3498ef"/><path d="M16.8 8.9l-5.1 5.2-2.7-2.7c-.4-.4-1-.4-1.4 0s-.4 1 0 1.4l3.4 3.4c.4.4 1 .4 1.4 0l5.8-5.8c.4-.4.4-1 0-1.4s-1-.4-1.4 0z" fill="#fff"/></svg>
+      </span>
+    </div>
+  </div>
+</body>
+</html>
